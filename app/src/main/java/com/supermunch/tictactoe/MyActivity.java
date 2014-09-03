@@ -16,7 +16,6 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -32,6 +31,7 @@ public class MyActivity extends Activity {
         int id = item.getItemId();
         return id == R.id.action_settings || super.onOptionsItemSelected(item);
     }
+
     public void zeroButtonClick(View view)
     {
         playMove(0);
@@ -103,6 +103,78 @@ public class MyActivity extends Activity {
     public void seventeenButtonClick(View view)
     {
         playMove(17);
+    }
+    public void eighteenButtonClick(View view)
+    {
+        playMove(18);
+    }
+    public void nineteenButtonClick(View view)
+    {
+        playMove(19);
+    }
+    public void twentyButtonClick(View view)
+    {
+        playMove(20);
+    }
+    public void twentyOneButtonClick(View view)
+    {
+        playMove(21);
+    }
+    public void twentyTwoButtonClick(View view)
+    {
+        playMove(22);
+    }
+    public void twentyThreeButtonClick(View view)
+    {
+        playMove(23);
+    }
+    public void twentyFourButtonClick(View view)
+    {
+        playMove(24);
+    }
+    public void twentyFiveButtonClick(View view)
+    {
+        playMove(25);
+    }
+    public void twentySixButtonClick(View view)
+    {
+        playMove(26);
+    }
+    public void twentySevenButtonClick(View view)
+    {
+        playMove(27);
+    }
+    public void twentyEightButtonClick(View view)
+    {
+        playMove(28);
+    }
+    public void twentyNineButtonClick(View view)
+    {
+        playMove(29);
+    }
+    public void thirtyButtonClick(View view)
+    {
+        playMove(30);
+    }
+    public void thirtyOneButtonClick(View view)
+    {
+        playMove(31);
+    }
+    public void thirtyTwoButtonClick(View view)
+    {
+        playMove(32);
+    }
+    public void thirtyThreeButtonClick(View view)
+    {
+        playMove(33);
+    }
+    public void thirtyFourButtonClick(View view)
+    {
+        playMove(34);
+    }
+    public void thirtyFiveButtonClick(View view)
+    {
+        playMove(35);
     }
 
     public void playMove(int position)
