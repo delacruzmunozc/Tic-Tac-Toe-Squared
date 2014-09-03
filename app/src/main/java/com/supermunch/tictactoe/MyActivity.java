@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MyActivity extends Activity {
@@ -29,59 +30,81 @@ public class MyActivity extends Activity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        return id == R.id.action_settings || super.onOptionsItemSelected(item);
     }
-    public void zeroButtonClick()
+    public void zeroButtonClick(View view)
     {
         playMove(0);
     }
-    public void oneButtonClick()
+    public void oneButtonClick(View view)
     {
         playMove(1);
     }
-    public void twoButtonClick()
+    public void twoButtonClick(View view)
     {
         playMove(2);
     }
-    public void threeButtonClick()
+    public void threeButtonClick(View view)
     {
         playMove(3);
     }
-    public void fourButtonClick()
+    public void fourButtonClick(View view)
     {
         playMove(4);
     }
-    public void fiveButtonClick()
+    public void fiveButtonClick(View view)
     {
         playMove(5);
     }
-    public void sixButtonClick()
+    public void sixButtonClick(View view)
     {
         playMove(6);
     }
-    public void sevenButtonClick()
+    public void sevenButtonClick(View view)
     {
         playMove(7);
     }
-    public void eightButtonClick()
+    public void eightButtonClick(View view)
     {
         playMove(8);
     }
-    public void nineButtonClick()
+    public void nineButtonClick(View view)
     {
         playMove(9);
     }
-    public void tenButtonClick()
+    public void tenButtonClick(View view)
     {
         playMove(10);
     }
-    public void elevenButtonClick()
+    public void elevenButtonClick(View view)
     {
         playMove(11);
     }
+    public void twelveButtonClick(View view)
+    {
+        playMove(12);
+    }
+    public void thirteenButtonClick(View view)
+    {
+        playMove(13);
+    }
+    public void fourteenButtonClick(View view)
+    {
+        playMove(14);
+    }
+    public void fifteenButtonClick(View view)
+    {
+        playMove(15);
+    }
+    public void sixteenButtonClick(View view)
+    {
+        playMove(16);
+    }
+    public void seventeenButtonClick(View view)
+    {
+        playMove(17);
+    }
+
     public void playMove(int position)
     {
         if (board[position] == 0)
