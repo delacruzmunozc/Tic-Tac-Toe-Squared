@@ -43,8 +43,9 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton12"
-            android:layout_weight="1" />
+            android:id="@+id/twentyFourButton"
+            android:layout_weight="1"
+            android:onClick="twentyFourButtonClick" />
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -90,8 +91,9 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton7"
-            android:layout_weight="1" />
+            android:id="@+id/twentyFiveButton"
+            android:layout_weight="1"
+            android:onClick="twentyFiveButtonClick" />
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -138,8 +140,9 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton18"
-            android:layout_weight="1" />
+            android:id="@+id/twentySixButton"
+            android:layout_weight="1"
+            android:onClick="twentySixButtonClick" />
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -186,8 +189,9 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton24"
-            android:layout_weight="1" />
+            android:id="@+id/twentySevenButton"
+            android:layout_weight="1"
+            android:onClick="twentySevenButtonClick" />
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -234,8 +238,9 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton30"
-            android:layout_weight="1" />
+            android:id="@+id/twentyEightButton"
+            android:layout_weight="1"
+            android:onClick="twentyEightButtonClick" />
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -282,8 +287,9 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageButton36"
-            android:layout_weight="1" />
+            android:id="@+id/twentyNineButton"
+            android:layout_weight="1"
+            android:onClick="twentyNineButtonClick" />
 
         <ImageButton
             android:layout_width="fill_parent"
