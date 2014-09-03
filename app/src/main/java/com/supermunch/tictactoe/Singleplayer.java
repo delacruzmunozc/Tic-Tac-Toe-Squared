@@ -35,7 +35,7 @@ public class Singleplayer extends Activity {
         int id = item.getItemId();
         return id == R.id.action_settings || super.onOptionsItemSelected(item);
     }
-    
+
     public void zeroButtonClick(View view)
     {
         playMove(0);
