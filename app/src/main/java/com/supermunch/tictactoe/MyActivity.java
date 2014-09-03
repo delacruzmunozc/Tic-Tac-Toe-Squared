@@ -38,6 +38,50 @@ public class MyActivity extends Activity {
     {
         playMove(0);
     }
+    public void oneButtonClick()
+    {
+        playMove(1);
+    }
+    public void twoButtonClick()
+    {
+        playMove(2);
+    }
+    public void threeButtonClick()
+    {
+        playMove(3);
+    }
+    public void fourButtonClick()
+    {
+        playMove(4);
+    }
+    public void fiveButtonClick()
+    {
+        playMove(5);
+    }
+    public void sixButtonClick()
+    {
+        playMove(6);
+    }
+    public void sevenButtonClick()
+    {
+        playMove(7);
+    }
+    public void eightButtonClick()
+    {
+        playMove(8);
+    }
+    public void nineButtonClick()
+    {
+        playMove(9);
+    }
+    public void tenButtonClick()
+    {
+        playMove(10);
+    }
+    public void elevenButtonClick()
+    {
+        playMove(11);
+    }
     public void playMove(int position)
     {
         if (board[position] == 0)
