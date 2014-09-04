@@ -10,24 +10,26 @@ import android.widget.ImageButton;
 import static com.supermunch.tictactoe.R.id.*;
 
 public class Multiplayer extends Activity {
+
+    // Starting variables
     int playerTurn = 1;
     int[] board = new int[36];
     ImageButton imageButton;
     boolean tie = true;
     boolean game = true;
+
+    // Built-in functions
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_board);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.my, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -37,6 +39,7 @@ public class Multiplayer extends Activity {
         return id == R.id.action_settings || super.onOptionsItemSelected(item);
     }
 
+    // ImageButton onClickListeners
     public void zeroButtonClick(View view)
     {
         playMove(0);
@@ -182,12 +185,11 @@ public class Multiplayer extends Activity {
         playMove(35);
     }
 
-    //Actually does all of the important stuff:
     // Places the pieces
     public void playMove(int position)
     {
-        // Checks if spot is empty
-        if (board[position] == 0 && !game)
+        // Check if the spot is empty and if the game is still going
+        if (board[position] == 0 && game)
         {
             // Sets the value of the spot
             board[position] = playerTurn;

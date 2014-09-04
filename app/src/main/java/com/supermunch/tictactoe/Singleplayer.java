@@ -6,30 +6,30 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
-
 import static com.supermunch.tictactoe.R.id.*;
 
-
 public class Singleplayer extends Activity {
+
+    // Starting variables
     int playerTurn = 1;
     int[] board = new int[36];
     ImageButton imageButton;
     boolean tie = true;
     boolean game = true;
     int win = 0;
+
+    // Built-in functions
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_board);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.singleplayer, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -184,12 +184,18 @@ public class Singleplayer extends Activity {
         playMove(35);
     }
 
+    // Plays the pieces for everyone
     public void playMove(int position)
     {
-        if (board[position] == 0)
+
+        // Checks if the spot is empty and the game is still
+        if ((board[position] == 0) && game)
         {
+            // Sets the value of the spot
             board[position] = playerTurn;
             checkForWin(playerTurn);
+
+            // Places the image on the proper ImageButton
             if (playerTurn == 2)
             {
                 switch (position)
@@ -495,6 +501,8 @@ public class Singleplayer extends Activity {
             checkForTie();
         }
     }
+
+    // Checks if the board is full, if so, it ends the game
     public void checkForTie()
     {
         tie = true;
@@ -508,10 +516,16 @@ public class Singleplayer extends Activity {
             game = false;
         }
     }
+
+    // Checks if someone wins
     public void checkForWin(int p)
     {
         if ((board[0] == p && board[1] == p && board[2] == p) || (board[0] == p && board[7] == p && board[14] == p) || (board[0] == p && board[6] == p && board[12] == p) ||
-                (board[1] == p && board[2] == p && board[3] == p) || (board[1] == p && board[7] == p && board[13] == p) || (board[1] == p && board[8] == p && board[15] == p))
+                (board[1] == p && board[2] == p && board[3] == p) || (board[1] == p && board[7] == p && board[13] == p) || (board[1] == p && board[8] == p && board[15] == p) ||
+                (board[2] == p && board[3] == p && board[4] == p) || (board[2] == p && board[8] == p && board[14] == p) || (board[2] == p && board[7] == p && board[12] == p) || (board[2] == p && board[9] == p && board[16] == p) ||
+                (board[3] == p && board[4] == p && board[5] == p) || (board[3] == p && board[9] == p && board[15] == p) || (board[3] == p && board[8] == p && board[13] == p) || (board[3] == p && board[10] == p && board[17] == p) ||
+                (board[4] == p && board[10] == p && board[16] == p) || (board[4] == p && board[9] == p && board[14] == p) ||
+                (board[5] == p && board[10] == p && board[15] == p) || (board[5] == p && board[11] == p && board[17] == p))
         {
             win = p;
         }
