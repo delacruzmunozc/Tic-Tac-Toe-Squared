@@ -216,99 +216,99 @@ public class MyActivity extends Activity {
                         break;
                     case 6:
                         imageButton = (ImageButton) findViewById(sixButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 7:
                         imageButton = (ImageButton) findViewById(sevenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 8:
                         imageButton = (ImageButton) findViewById(eightButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 9:
                         imageButton = (ImageButton) findViewById(nineButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 10:
                         imageButton = (ImageButton) findViewById(tenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 11:
                         imageButton = (ImageButton) findViewById(elevenButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 12:
                         imageButton = (ImageButton) findViewById(twelveButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 13:
                         imageButton = (ImageButton) findViewById(thirteenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 14:
                         imageButton = (ImageButton) findViewById(fourteenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 15:
                         imageButton = (ImageButton) findViewById(fifteenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 16:
                         imageButton = (ImageButton) findViewById(sixteenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 17:
                         imageButton = (ImageButton) findViewById(seventeenButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 18:
                         imageButton = (ImageButton) findViewById(eighteenButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 19:
                         imageButton = (ImageButton) findViewById(nineteenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 20:
                         imageButton = (ImageButton) findViewById(twentyButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 21:
                         imageButton = (ImageButton) findViewById(twentyOneButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 22:
                         imageButton = (ImageButton) findViewById(twentyTwoButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 23:
                         imageButton = (ImageButton) findViewById(twentyThreeButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 24:
                         imageButton = (ImageButton) findViewById(twentyFourButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 25:
                         imageButton = (ImageButton) findViewById(twentyFiveButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 26:
                         imageButton = (ImageButton) findViewById(twentySixButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 27:
                         imageButton = (ImageButton) findViewById(twentySevenButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 28:
                         imageButton = (ImageButton) findViewById(twentyEightButton);
-                        imageButton.setImageResource(R.drawable._lOl_);
+                        imageButton.setImageResource(R.drawable.nlOln);
                         break;
                     case 29:
                         imageButton = (ImageButton) findViewById(twentyNineButton);
-                        imageButton.setImageResource(R.drawable._O_);
+                        imageButton.setImageResource(R.drawable.nOn);
                         break;
                     case 30:
                         imageButton = (ImageButton) findViewById(thirtyButton);
@@ -367,99 +367,99 @@ public class MyActivity extends Activity {
                         break;
                     case 6:
                         imageButton = (ImageButton) findViewById(sixButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 7:
                         imageButton = (ImageButton) findViewById(sevenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 8:
                         imageButton = (ImageButton) findViewById(eightButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 9:
                         imageButton = (ImageButton) findViewById(nineButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 10:
                         imageButton = (ImageButton) findViewById(tenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 11:
                         imageButton = (ImageButton) findViewById(elevenButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 12:
                         imageButton = (ImageButton) findViewById(twelveButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 13:
                         imageButton = (ImageButton) findViewById(thirteenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 14:
                         imageButton = (ImageButton) findViewById(fourteenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 15:
                         imageButton = (ImageButton) findViewById(fifteenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 16:
                         imageButton = (ImageButton) findViewById(sixteenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 17:
                         imageButton = (ImageButton) findViewById(seventeenButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 18:
                         imageButton = (ImageButton) findViewById(eighteenButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 19:
                         imageButton = (ImageButton) findViewById(nineteenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 20:
                         imageButton = (ImageButton) findViewById(twentyButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 21:
                         imageButton = (ImageButton) findViewById(twentyOneButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 22:
                         imageButton = (ImageButton) findViewById(twentyTwoButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 23:
                         imageButton = (ImageButton) findViewById(twentyThreeButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 24:
                         imageButton = (ImageButton) findViewById(twentyFourButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 25:
                         imageButton = (ImageButton) findViewById(twentyFiveButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 26:
                         imageButton = (ImageButton) findViewById(twentySixButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 27:
                         imageButton = (ImageButton) findViewById(twentySevenButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 28:
                         imageButton = (ImageButton) findViewById(twentyEightButton);
-                        imageButton.setImageResource(R.drawable._lXl_);
+                        imageButton.setImageResource(R.drawable.nlXln);
                         break;
                     case 29:
                         imageButton = (ImageButton) findViewById(twentyNineButton);
-                        imageButton.setImageResource(R.drawable._X_);
+                        imageButton.setImageResource(R.drawable.nXn);
                         break;
                     case 30:
                         imageButton = (ImageButton) findViewById(thirtyButton);
