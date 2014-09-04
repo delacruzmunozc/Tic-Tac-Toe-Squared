@@ -14,10 +14,13 @@ public class Singleplayer extends Activity {
     int playerTurn = 1;
     int[] board = new int[36];
     ImageButton imageButton;
+    boolean tie = true;
+    boolean game = true;
+    int win = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.activity_board);
     }
 
     @Override
@@ -186,6 +189,7 @@ public class Singleplayer extends Activity {
         if (board[position] == 0)
         {
             board[position] = playerTurn;
+            checkForWin(playerTurn);
             if (playerTurn == 2)
             {
                 switch (position)
@@ -488,6 +492,28 @@ public class Singleplayer extends Activity {
                 }
                 playerTurn = 2;
             }
+            checkForTie();
+        }
+    }
+    public void checkForTie()
+    {
+        tie = true;
+        for (int x = 0; x < 36; x++)
+        {
+            if (board[x] == 0)
+                tie = false;
+        }
+        if (tie)
+        {
+            game = false;
+        }
+    }
+    public void checkForWin(int p)
+    {
+        if ((board[0] == p && board[1] == p && board[2] == p) || (board[0] == p && board[7] == p && board[14] == p) || (board[0] == p && board[6] == p && board[12] == p) ||
+                (board[1] == p && board[2] == p && board[3] == p) || (board[1] == p && board[7] == p && board[13] == p) || (board[1] == p && board[8] == p && board[15] == p))
+        {
+            win = p;
         }
     }
 }

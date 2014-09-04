@@ -9,15 +9,16 @@ import android.widget.ImageButton;
 
 import static com.supermunch.tictactoe.R.id.*;
 
-
-public class MyActivity extends Activity {
+public class Multiplayer extends Activity {
     int playerTurn = 1;
     int[] board = new int[36];
     ImageButton imageButton;
+    boolean tie = true;
+    boolean game = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.activity_board);
     }
 
     @Override
@@ -181,11 +182,17 @@ public class MyActivity extends Activity {
         playMove(35);
     }
 
+    //Actually does all of the important stuff:
+    // Places the pieces
     public void playMove(int position)
     {
-        if (board[position] == 0)
+        // Checks if spot is empty
+        if (board[position] == 0 && !game)
         {
+            // Sets the value of the spot
             board[position] = playerTurn;
+
+            // Places the image on the proper ImageButton
             if (playerTurn == 2)
             {
                 switch (position)
@@ -488,6 +495,20 @@ public class MyActivity extends Activity {
                 }
                 playerTurn = 2;
             }
+            checkForTie();
+        }
+    }
+    public void checkForTie()
+    {
+        tie = true;
+        for (int x = 0; x < 36; x++)
+        {
+            if (board[x] == 0)
+                tie = false;
+        }
+        if (tie)
+        {
+            game = false;
         }
     }
 }
